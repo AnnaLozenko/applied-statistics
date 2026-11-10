@@ -73,6 +73,12 @@ Temporary Items
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/.gitignore
+.idea/applied-statistics.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
 
 # AWS User-specific
 .idea/**/aws.xml
@@ -424,5 +430,31 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# PyCharm / JetBrains IDE
+.idea/
+
+# Anaconda project data
+anacondaprojects/db/
+
+# Python virtual environments
+.venv/
+conda-env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+*.pyc
+
+# Environment variables and secrets
+.env.*
+!.env.example
+
+# Local database files (if generated locally)
+*.sqlite
+*.sqlite3
+*.db
+
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,python,jupyternotebooks,pycharm,visualstudiocode,rust,macos,linux,vim
