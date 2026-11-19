@@ -43,11 +43,9 @@ Each problem includes Python code, visualisations, statistical results, and inte
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
+git clone https://github.com/AnnaLozenko/applied-statistics.git
 cd REPOSITORY
 ```
-
-Replace `USERNAME` and `REPOSITORY` with the appropriate GitHub details.
 
 ### 2. Install dependencies
 
